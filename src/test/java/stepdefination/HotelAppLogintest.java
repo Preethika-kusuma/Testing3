@@ -46,6 +46,7 @@ WebDriver driver;
 		String actual=driver.findElement(By.id("username_show")).getAttribute("value");
 		AssertJUnit.assertTrue(actual.equalsIgnoreCase(expected));
 	}
+	System.out.println("Added");
  
 }
 
